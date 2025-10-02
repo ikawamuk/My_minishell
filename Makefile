@@ -122,6 +122,7 @@ VALGRIND        = valgrind
 VALGRIND_FLAGS  = --leak-check=full --track-origins=yes --show-leak-kinds=all
 DFLAGS          = -g -O0
 ASAN_FLAGS      = -g -fsanitize=address
+SCAN_BUILD      = scan-build
 
 # ----------------------------------------------------------------------------- #
 #                                     RULES                                     #
@@ -172,6 +173,9 @@ valgrind: fclean
 	@echo "\n\033[1;36mRunning Valgrind for '$(NAME)'...\033[0m"
 	$(VALGRIND) $(VALGRIND_FLAGS) ./$(NAME)
 
+scanb: fclean
+	@$(SCAN_BUILD) $(MAKE) all
+
 test: all
 	@$(MAKE) all
 	@echo "\033[1;36mRunning tests with Valgrind...\033[0m"
@@ -180,4 +184,4 @@ test: all
 	@$(RM) test_runner
 
 # --- PHONY TARGETS ---
-.PHONY:         all clean fclean re test debug asan valgrind
+.PHONY:         all clean fclean re test debug asan valgrind scanb
