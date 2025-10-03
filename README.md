@@ -1,4 +1,4 @@
-# My_minishell
+# minishell
 with kokurita [@HINOKAGUZUTI](https://github.com/HINOKAGUZUTI)
 
 you can get the bash like prompt with the following command
