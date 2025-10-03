@@ -1,5 +1,5 @@
 # My_minishell
-with kokurita (@HINOKAGUZUTI)[https://github.com/HINOKAGUZUTI]
+with kokurita [@HINOKAGUZUTI](https://github.com/HINOKAGUZUTI)
 
 you can get the bash like prompt
 ```
