@@ -3,16 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   wait_child_process.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kokurita <kokurita@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ikawamuk <ikawamuk@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/24 23:42:25 by ikawamuk          #+#    #+#             */
-/*   Updated: 2025/09/29 20:39:31 by kokurita         ###   ########.fr       */
+/*   Updated: 2025/10/03 09:52:32 by ikawamuk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <sys/wait.h>
-#include <signal.h>
 #include "define.h"
 #include "exec.h"
 #include "libft.h"

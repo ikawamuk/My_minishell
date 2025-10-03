@@ -6,17 +6,15 @@
 /*   By: ikawamuk <ikawamuk@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/17 20:25:03 by ikawamuk          #+#    #+#             */
-/*   Updated: 2025/10/01 19:45:58 by ikawamuk         ###   ########.fr       */
+/*   Updated: 2025/10/03 09:52:11 by ikawamuk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <readline/readline.h>
-#include <signal.h>
 #include "define.h"
 #include "shell.h"
 #include "libft.h"
-
 #include "sig.h"
 
 void		set_signal_handler(t_shell *shell);

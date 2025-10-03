@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   set_signal_handler.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kokurita <kokurita@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ikawamuk <ikawamuk@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/17 20:26:17 by ikawamuk          #+#    #+#             */
-/*   Updated: 2025/09/30 20:36:06 by kokurita         ###   ########.fr       */
+/*   Updated: 2025/10/03 09:52:16 by ikawamuk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <readline/readline.h>
-#include <signal.h>
 #include <unistd.h>
 #include <stdio.h>
 #include "shell.h"

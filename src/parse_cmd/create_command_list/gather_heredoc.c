@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   gather_heredoc.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kokurita <kokurita@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ikawamuk <ikawamuk@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 13:45:47 by ikawamuk          #+#    #+#             */
-/*   Updated: 2025/09/30 20:50:12 by kokurita         ###   ########.fr       */
+/*   Updated: 2025/10/03 09:52:37 by ikawamuk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 #include <sys/wait.h>
 #include "define.h"
 #include "libft.h"
-#include <signal.h>
 #include "shell.h"
 #include "utils.h"
 #include "sig.h"

@@ -6,13 +6,12 @@
 /*   By: ikawamuk <ikawamuk@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 21:54:58 by kokurita          #+#    #+#             */
-/*   Updated: 2025/10/01 19:45:54 by ikawamuk         ###   ########.fr       */
+/*   Updated: 2025/10/03 09:52:41 by ikawamuk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <readline/readline.h>
-#include <signal.h>
 #include "define.h"
 #include "libft.h"
 #include "sig.h"
